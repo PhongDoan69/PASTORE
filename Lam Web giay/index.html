@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PA Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link href="CSS.css" rel="stylesheet" />
+<script src="main.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#goToTop").hide()
+        $(window).scroll(function(){
+           if($(this).scrollTop()>=100)
+            $("#goToTop").show("Slow")
+           else
+            $("#goToTop").hide("Slow")
+           })
+           $("#goToTop").click(function(){
+               $("html,body").animate({scrollTop:0},1000)
+        })
+    })
+</script>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div><a href="index.html">
+            <img src="IMG/nike-logo.jpg" class="logo">
+        </a>
+            <h5>PA STORE</h5>
+            </div>
+            <nav>
+                <ul class="types">
+                    <li class="type"><a href="#">MEN</a>
+                    <ul class="sub-type">
+                        <li><a href="#">Basketball</a></li>
+                        <li><a href="#">Running</a></li>
+                        <li><a href="#">Jordan Brand</a></li>
+                    </ul>
+                    </li>
+                    <li class="type"><a href="#" style="padding-right:30px;padding-left:30px;">WOMEN</a>
+                        <ul class="sub-type">
+                            <li><a href="#">Basketball</a></li>
+                            <li><a href="#">Running</a></li>
+                            <li><a href="#">Jordan Brand</a></li>
+                        </ul>
+                    </li>
+                    <li class="type"><a href="#">KIDS</a>
+                        <ul class="sub-type">
+                            <li><a href="#">Basketball</a></li>
+                            <li><a href="#">Running</a></li>
+                            <li><a href="#">Jordan Brand</a></li>
+                        </ul>
+                    </li>
+                    <li class="type"><a href="#" style="padding-right:45px;padding-left:45px;">SKNR</a>
+                        <ul class="sub-type">
+                            <li><a href="#">Basketball</a></li>
+                            <li><a href="#">Running</a></li>
+                            <li><a href="#">Jordan Brand</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+            </nav>
+            <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder="Type to search">
+                <a class="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+            <div class="cart-box">
+                <a class="cart-btn" href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+            <div class="heart-box">
+                <a class="heart-btn" href="#">
+                    <i class="fas fa-heart"></i>
+                </a>
+            </div>
+            
+        </div>
+    </header>
+    <div><a id="goToTop" href="javascript:;">GO TO TOP</a></div>
+    <div class="logan">
+        <img src="IMG/nhung-cau-noi-hay-ve-bong-ro-9.jpg" alt="logan"/>
+        <img src="IMG/nhung-cau-noi-hay-ve-bong-ro-10.jpg" />
+        <img src="IMG/nhung-cau-noi-hay-ve-bong-ro-12.jpg"/>
+    </div>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IMG/product/Carousel/photo-1552346154-21d32810aba3.jpg" alt="Los Angeles" width="1100" height="1000">
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/product/Carousel/maxresdefault.jpg" alt="Chicago" width="1100" height="1000">
+          </div>
+          <div class="carousel-item">
+            <img src="IMG/product/Carousel/Nike-Air-Zoom-Tempo-Next-Support-1024x384.jpg" alt="New York" width="1100" height="1000">
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    <h1>Một số sản phẩm nổi bật</h1>
+    <section>
+        <a href="index1.html" class="product">
+        <div >
+            <img src="IMG/product/Pink.jpg" />
+            <h3>Nike air zoom tempo</h3>
+            <h2>4.990.000đ</h2></div>
+        </a>            
+        <a href="index2.html" class="product">
+            <div >
+                <img src="IMG/product/JordanXXXIV/air-jordan-xxxiv-low-pf-basketball-shoe-pL6JX3.jpg" />
+                <h3>Nike air zoom tempo</h3>
+                <h2>4.990.000đ</h2></div>
+            </a>      
+        <a href="index1.html" class="product">
+                <div >
+                <img src="IMG/product/Pink.jpg" />
+                <h3>Nike air zoom tempo</h3>
+                <h2>4.990.000đ</h2></div>
+            </a>      
+        <a href="index1.html" class="product">
+                <div >
+                    <img src="IMG/product/JordanXXXIV/air-jordan-xxxiv-low-pf-basketball-shoe-pL6JX3.jpg" />
+                <h3>Nike air zoom tempo</h3>
+                <h2>4.990.000đ</h2></div>
+                </a>     
+                <img class="mediumCircle" src="IMG/product/esclipse/Medium.svg"/>
+                
+    </section>
+    <footer>
+        <h1>LIÊN HỆ</h1>
+        <hr>
+        <p>Các phương thức liên hệ</p>
+        
+        <div class="col50">
+            <h4>Địa chỉ cửa hàng:</h4>
+            <ul>
+                <li>............</li>
+                <li>............</li>
+            </ul>
+        </div>
+        <div class="col50>"></div>
+        <div class="col50">
+            <h4>Thông tin liên lạc:</h4>
+            <ul>
+                <li>hotline:1234567890</li>
+                <li>Facebook:EelNuyh</li>
+            </ul>
+        </div>
+        <div class="col50>"></div>
+        
+    </footer>
+</body>
